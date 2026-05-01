@@ -1,4 +1,4 @@
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/gibberlings3/CowledMenace?include_prereleases)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Maltodaxtrin/Portraits-for-Cowled-Menace?include_prereleases)
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
 ![License](https://img.shields.io/static/v1?label=license&message=CC-BY-NC-4.0&color=green)
 
@@ -17,15 +17,15 @@ Just portraits chosen by me to add to Cowled Menace.
 
 ## Compatibility
 
-Should be compatible with everything.
+Should be compatible with everything. Works with v2.0.0 of Cowled Menace.
 
 ## Installation
 
-**Windows** </br> Cowled Menace is packaged and installed with WeiDU and is distributed as a self-extracting archive. To install, simply double-click the archive and follow the instructions on screen.
+**Windows** </br> Portraits for Cowled Menace is packaged and installed with WeiDU and is distributed as a self-extracting archive. To install, simply double-click the archive and follow the instructions on screen.
 
-Alternatively the files can be extracted from the archive using WinRAR. If properly extracted, you should have a "**cowledmenace**" folder and **setup-cowledmenace.exe** in your BG2 folder. To install, double-click **setup-cowledmenace.exe** and follow the instructions on screen.
+Alternatively the files can be extracted from the archive using WinRAR. If properly extracted, you should have a "**PortraitsCM**" folder and **setup-PortraitsCM.exe** in your BG2 folder. To install, double-click **setup-PortraitsCM.exe** and follow the instructions on screen.
 
-Please run **setup-cowledmenace.exe** in your BG2 folder to reinstall, uninstall, or otherwise change components.
+Please run **setup-PortraitsCM.exe** in your BG2 folder to reinstall, uninstall, or otherwise change components.
 
 ## Components
 
