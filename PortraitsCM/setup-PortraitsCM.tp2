@@ -1,0 +1,71 @@
+// Portraits for Cowled Menace
+
+BACKUP ~Portraits/backup~
+AUTHOR ~Daxtreme~
+VERSION ~1.0~
+
+ALWAYS
+	INCLUDE ~PortraitsCM/common.tpa~
+END
+
+ASK_EVERY_COMPONENT                                                                // Disallow installing all components at once
+LANGUAGE ~English~ ~english~ ~PortraitsCM/lang/english/english.tra~
+
+
+////////////////////////////////////////////////////
+// Install Portraits
+////////////////////////////////////////////////////
+
+BEGIN @0 DESIGNATED 1000
+	REQUIRE_PREDICATE FILE_EXISTS_IN_GAME ~dx#zalla.cre~ @50 //Required file missing - install Cowled Menace
+
+	COPY ~Portraits/bmp/DX#LICH1.bmp~ ~override~
+	COPY ~Portraits/bmp/dx#zport.bmp~ ~override~
+	COPY ~Portraits/bmp/DX#dalid.bmp~ ~override~
+	COPY ~Portraits/bmp/dx#shoon.bmp~ ~override~
+	COPY ~Portraits/bmp/dx#rzall.bmp~ ~override~
+
+	ACTION_IF FILE_EXISTS_IN_GAME ~dx#zalla.cre~ BEGIN															// Zallanora
+		COPY_EXISTING ~dx#zalla.cre~ ~override~
+			LPF SANITIZE_CRE RET ok = ok END
+			PATCH_IF ok BEGIN
+				WRITE_ASCIIT 0x34 ~dx#zport~				  		 											// Assign portrait
+			END
+		BUT_ONLY
+	END
+
+	ACTION_IF FILE_EXISTS_IN_GAME ~dx#lichd.cre~ BEGIN
+		COPY_EXISTING ~dx#lichd.cre~ ~override~
+			LPF SANITIZE_CRE RET ok = ok END
+			PATCH_IF ok BEGIN
+				WRITE_ASCIIT 0x34 ~DX#LICH1~				  		 											// Assign portrait
+			END
+		BUT_ONLY
+	END
+
+	ACTION_IF FILE_EXISTS_IN_GAME ~dx#dalid.cre~ BEGIN
+		COPY_EXISTING ~dx#dalid.cre~ ~override~
+			LPF SANITIZE_CRE RET ok = ok END
+			PATCH_IF ok BEGIN
+				WRITE_ASCIIT 0x34 ~DX#dalid~				  		 											// Assign portrait
+			END
+		BUT_ONLY
+	END
+	
+	ACTION_IF FILE_EXISTS_IN_GAME ~dx#shoon.cre~ BEGIN
+		COPY_EXISTING ~dx#shoon.cre~ ~override~
+			LPF SANITIZE_CRE RET ok = ok END
+			PATCH_IF ok BEGIN
+				WRITE_ASCIIT 0x34 ~dx#shoon~				  		 											// Assign portrait
+			END
+		BUT_ONLY
+	END
+
+	ACTION_IF FILE_EXISTS_IN_GAME ~dx#rzall.cre~ BEGIN
+		COPY_EXISTING ~dx#rzall.cre~ ~override~
+			LPF SANITIZE_CRE RET ok = ok END
+			PATCH_IF ok BEGIN
+				WRITE_ASCIIT 0x34 ~dx#rzall~				  		 											// Assign portrait
+			END
+		BUT_ONLY
+	END
