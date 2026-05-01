@@ -35,7 +35,7 @@ Assigns 5 custom portraits to NPC from Cowled Menace.
 
 ## Thanks and Acknowledgements
 
-Credits to smeagolheart for a couple portraits from his awesome mod Portraits Portraits Everywhere.
+Credits to smeagolheart for a few portraits from his awesome mod Portraits Portraits Everywhere, applied here. Credits also to aditya777 from deviantart for the Zallanora portrait. 
 
 ### Tools Used in Creation
 
