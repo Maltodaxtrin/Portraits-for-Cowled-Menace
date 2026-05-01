@@ -19,11 +19,11 @@ LANGUAGE ~English~ ~english~ ~PortraitsCM/lang/english/english.tra~
 BEGIN @0 DESIGNATED 1000
 	REQUIRE_PREDICATE FILE_EXISTS_IN_GAME ~dx#zalla.cre~ @50 //Required file missing - install Cowled Menace
 
-	COPY ~Portraits/bmp/DX#LICH1.bmp~ ~override~
-	COPY ~Portraits/bmp/dx#zport.bmp~ ~override~
-	COPY ~Portraits/bmp/DX#dalid.bmp~ ~override~
-	COPY ~Portraits/bmp/dx#shoon.bmp~ ~override~
-	COPY ~Portraits/bmp/dx#rzall.bmp~ ~override~
+	COPY ~PortraitsCM/bmp/DX#LICH1.bmp~ ~override~
+	COPY ~PortraitsCM/bmp/dx#zport.bmp~ ~override~
+	COPY ~PortraitsCM/bmp/DX#dalid.bmp~ ~override~
+	COPY ~PortraitsCM/bmp/dx#shoon.bmp~ ~override~
+	COPY ~PortraitsCM/bmp/dx#rzall.bmp~ ~override~
 
 	ACTION_IF FILE_EXISTS_IN_GAME ~dx#zalla.cre~ BEGIN															// Zallanora
 		COPY_EXISTING ~dx#zalla.cre~ ~override~
