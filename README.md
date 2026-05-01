@@ -33,6 +33,10 @@ Please run **setup-PortraitsCM.exe** in your BG2 folder to reinstall, uninstall,
 
 Assigns 5 custom portraits to NPC from Cowled Menace.
 
+## Thanks and Acknowledgements
+
+Credits to smeagolheart for a couple portraits from his awesome mod Portraits Portraits Everywhere.
+
 ### Tools Used in Creation
 
 - [WeiDU](https://weidu.org/) by Wes Weimer and the bigg
