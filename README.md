@@ -4,7 +4,7 @@
 
 # Portraits for Cowled Menace
 
-Just portraits chosen by me to add to Cowled Menace.
+Just portraits to add to Cowled Menace.
 
 ## Content Index
 
@@ -17,7 +17,7 @@ Just portraits chosen by me to add to Cowled Menace.
 
 ## Compatibility
 
-Should be compatible with everything. Works with v2.0.0 of Cowled Menace.
+Should be compatible with everything. Works with v2.0.0+ of Cowled Menace.
 
 ## Installation
 
@@ -31,11 +31,11 @@ Please run **setup-PortraitsCM.exe** in your BG2 folder to reinstall, uninstall,
 
 **Cowled Menace - Assign Custom Portraits**
 
-Assigns 5 custom portraits to NPC from Cowled Menace.
+Assigns 7 custom portraits to NPCs from Cowled Menace. Laeral Silverhand doesn't have a portrait assigned here because she already has one in the main mod.
 
 ## Thanks and Acknowledgements
 
-Credits to smeagolheart for a few portraits from his awesome mod Portraits Portraits Everywhere, applied here. Credits also to aditya777 from deviantart for the Zallanora portrait. 
+Credits to Holden and team from the HPS Portrait project, I used their portrait for Dalina, Zallanora the Demilich, Kartak Spellseer, and SHOOL. smeagolheart for  the SHOON portrait from his awesome mod Portraits Portraits Everywhere, applied here. Credits also to aditya777 from deviantart for the Zallanora portrait. Portrait for real Zallanora by omupied (Aminael) on deviantart.
 
 ### Tools Used in Creation
 
@@ -54,4 +54,5 @@ This Modification is unofficial Fan Content permitted under the Fan Content Poli
 
 ## Version History
 
+1.1 -- Changed some portraits, fixed one broken portrait.
 1.0 -- First release
